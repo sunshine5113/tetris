@@ -4,7 +4,7 @@ A childhood memory Tetris game built with Angular 10 and Akita.
 
 ## Working Game
 
-Check out the **working game** -> https://tetris.trungk18.com
+Check out the **working game** -> https://tetris.sunshine5113.com
 
 The game has sounds, wear your 🎧 or turn on your 🔊 for a better experience.
 
@@ -25,7 +25,7 @@ If you like my work, feel free to:
 
 Thanks a bunch for stopping by and supporting me!
 
-[tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Ftrungk18%2Fangular-tetris&text=Awesome%20Tetris%20game%20built%20with%20Angular%2010%20and%20Akita%2C%20can%20you%20get%20999999%20points%3F&hashtags=angular,angulartetris,akita,typescript
+[tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fsunshine5113%2Fangular-tetris&text=Awesome%20Tetris%20game%20built%20with%20Angular%2010%20and%20Akita%2C%20can%20you%20get%20999999%20points%3F&hashtags=angular,angulartetris,akita,typescript
 
 ## Cake Defi
 
@@ -53,7 +53,7 @@ After showing my wife the [Tetris game built with Vue][vue]. She asked me why I 
 >
 > Please [tweet][tweetmax] the screenshot with your highest score, together with hashtag `#angulartetris` and my name tagged as well `@tuantrungvo`. I will send **a free gift** to the one having the highest score of the day, from now till <u>1 Aug 2020</u>.
 
-[tweetmax]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Ftrungk18%2Fangular-tetris&text=Woo-hoo!%20I%20got%20a%20999999%20points%20on%20Angular%20Tetris%20%40tuantrungvo.%20Wanna%20join%20the%20party%3F%20&hashtags=angular,angulartetris,akita,typescript
+[tweetmax]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fsunshine5113%2Fangular-tetris&text=Woo-hoo!%20I%20got%20a%20999999%20points%20on%20Angular%20Tetris%20%40tuantrungvo.%20Wanna%20join%20the%20party%3F%20&hashtags=angular,angulartetris,akita,typescript
 
 ## Who is this for?
 
@@ -119,7 +119,7 @@ Although you don't dispatch any action, Akita will still do it undo the hood as 
 imports: [environment.production ? [] : AkitaNgDevtools.forRoot()];
 ```
 
-I turn it on all the time on [tetris.trungk18.com][angular-tetris], you can open the DevTools and start seeing the data flow.
+I turn it on all the time on [tetris.sunshine5113.com][angular-tetris], you can open the DevTools and start seeing the data flow.
 
 ![Angular Tetris][akita-devtool]
 
@@ -204,7 +204,7 @@ Now is the interesting part, you create a custom piece by yourself. Simply creat
 
 For instance, I will define a new piece call F with class name [`PieceF`][piecef]. That is how it should look like.
 
-[piecef]: https://github.com/trungk18/angular-tetris/blob/feature/pieceF/src/app/interface/piece/F.ts
+[piecef]: https://github.com/sunshine5113/angular-tetris/blob/feature/pieceF/src/app/interface/piece/F.ts
 
 ```ts
 const ShapesF: Shapes = [];
@@ -249,7 +249,7 @@ The source code for that custom piece F, you can see at [feature/pieceF][feature
 
 ![Angular Tetris Piece F][piecef-demo]
 
-[feature/piecef]: https://github.com/trungk18/angular-tetris/tree/feature/pieceF
+[feature/piecef]: https://github.com/sunshine5113/angular-tetris/tree/feature/pieceF
 [piecef-demo]: src/assets/readme/piecef-demo.gif
 
 ### Animation
@@ -330,7 +330,7 @@ The flow was easy. I designed a simple [to do list][todolist], then start readin
 
 ## Setting up development environment 🛠
 
-- `git clone https://github.com/trungk18/angular-tetris.git`
+- `git clone https://github.com/sunshine5113/angular-tetris.git`
 - `cd angular-tetris`
 - `npm start`
 - The app should run on `http://localhost:4200/`
@@ -338,9 +338,9 @@ The flow was easy. I designed a simple [to do list][todolist], then start readin
 ## Author: Trung Vo ✍️
 
 - A young and passionate front-end engineer. Working with Angular and TypeScript. Like photography, running, cooking, and reading books.
-- Author of Angular Jira clone -> [jira.trungk18.com][jira-clone]
-- Personal blog: https://trungk18.com/
-- Say hello: trungk18 [et] gmail [dot] com
+- Author of Angular Jira clone -> [jira.sunshine5113.com][jira-clone]
+- Personal blog: https://sunshine5113.com/
+- Say hello: sunshine5113 [et] gmail [dot] com
 
 ## Credits and references
 
@@ -363,9 +363,9 @@ Feel free to use my code on your project. It would be great if you put a referen
 
 [MIT](https://opensource.org/licenses/MIT)
 
-[issues]: https://github.com/trungk18/angular-tetris/issues/new/choose
-[pull]: https://github.com/trungk18/angular-tetris/pulls
-[angular-tetris]: https://tetris.trungk18.com
+[issues]: https://github.com/sunshine5113/angular-tetris/issues/new/choose
+[pull]: https://github.com/sunshine5113/angular-tetris/pulls
+[angular-tetris]: https://tetris.sunshine5113.com
 [medium]: https://medium.com/angular-in-depth/game-development-tetris-in-angular-64ef96ce56f7
 [srs]: https://tetris.fandom.com/wiki/SRS
 [vue]: https://github.com/Binaryify/vue-tetris
@@ -386,7 +386,7 @@ Feel free to use my code on your project. It would be great if you put a referen
 [hotkeys]: https://github.com/ngneat/hotkeys
 [hotkeys-implementation]: src/app/containers/angular-tetris/angular-tetris.component.ts
 [chautran]: https://github.com/nartc
-[jira-clone]: https://github.com/trungk18/jira-clone-angular
+[jira-clone]: https://github.com/sunshine5113/jira-clone-angular
 [marathon]: https://www.strava.com/activities/2902245728
-[todolist]: https://www.notion.so/trungk18/Phase-1-be1ae0fbbf2c4c2fb92887e2218413db
+[todolist]: https://www.notion.so/sunshine5113/Phase-1-be1ae0fbbf2c4c2fb92887e2218413db
 [web_audio_api_cross_browser]: https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Web_Audio_API_cross_browser
