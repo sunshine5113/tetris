@@ -330,7 +330,7 @@ The flow was easy. I designed a simple [to do list][todolist], then start readin
 
 ## Setting up development environment 🛠
 
-- `git clone https://github.com/trungk18/angular-tetris.git`
+- `git clone https://github.com/sunshine5113/angular-tetris.git`
 - `cd angular-tetris`
 - `npm start`
 - The app should run on `http://localhost:4200/`
